@@ -1,0 +1,17 @@
+{
+    "http": {
+        "port": 10086
+    },
+    "mongodb": {
+        "host": "127.0.0.1:27017",
+        "name": "demo"
+    },
+    "redis": {
+        "host": "redis://:admin@127.0.0.1:6379",
+        "key_exp": 30
+    },
+    "log": {
+        "name": "logs/demo.log",
+        "level": "debug"
+    }
+}
